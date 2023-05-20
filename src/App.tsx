@@ -45,6 +45,7 @@ function App(): JSX.Element {
   return (
     <>
       <StatusBar />
+      <View style={styles.headline}><Text style={styles.headlineText}>Currency Converter 🤑</Text></View>
       <View style={styles.Container}>
         <View style={styles.topContainer}>
           <View style={styles.rupeesContainer}>
@@ -88,7 +89,7 @@ function App(): JSX.Element {
 const styles = StyleSheet.create({
   Container: {
     flex: 1,
-    backgroundColor: '#d66ee6',
+    // backgroundColor: '#0f0608',
   },
   topContainer: {
     flex: 1,
@@ -97,7 +98,7 @@ const styles = StyleSheet.create({
   },
   resultText: {
     fontSize: 32,
-    color: 'yellow',
+    color: '#000000',
     fontWeight: '800',
   },
   rupeesContainer: {
@@ -119,13 +120,13 @@ const styles = StyleSheet.create({
     margin: 12,
     height: 70,
     borderRadius: 12,
-    backgroundColor: '#fff',
+    backgroundColor: '#000000',
     elevation: 10,
     shadowOffset: {
       width: 1,
       height: 1,
     },
-    shadowColor: 'yellow',
+    shadowColor: '#80dde0',
     shadowOpacity: 0.1,
     shadowRadius: 1,
   },
@@ -141,6 +142,16 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFFFFF',
     elevation: 10,
   },
+  headline:{
+    marginTop:20,
+    alignItems:'center',
+    justifyContent:'center'
+  },
+  headlineText:{
+    fontSize:24,
+    color:'#000000',
+    marginBottom:-50
+  }
 });
 
 export default App;
