@@ -130,7 +130,6 @@ const styles = StyleSheet.create({
     shadowRadius: 1,
     
   },
-
   selected: {
     backgroundColor: '#ffeaa7',
   },
