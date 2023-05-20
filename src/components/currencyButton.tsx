@@ -9,7 +9,7 @@ type currencyButtonProps = PropsWithChildren<{
         flag:string
 }>
 
-const currencyButton = (props:currencyButtonProps):JSX.Element =>{
+const CurrencyButton = (props:currencyButtonProps):JSX.Element =>{
   return (
         <View style={styles.buttonContainer}>
             <Text style={styles.flag}>{props.flag}</Text>
@@ -33,4 +33,4 @@ const styles = StyleSheet.create({
     },
 
 })
-export default currencyButton;
+export default CurrencyButton;

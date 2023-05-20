@@ -128,7 +128,6 @@ const styles = StyleSheet.create({
     shadowColor: 'yellow',
     shadowOpacity: 0.1,
     shadowRadius: 1,
-    
   },
   selected: {
     backgroundColor: '#ffeaa7',

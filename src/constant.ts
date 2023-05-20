@@ -53,6 +53,27 @@ export const currencyByRupee: Currency[] = [
         flag: '🎰',
         symbol: '₿',
       },
+      {
+        name: 'Boliviano',
+        value: 0.08389,
+        flag: '🇧🇴',
+        symbol: 'Bs',
+      },
+      {
+        name: 'Dinar',
+        value: 1.64915,
+        flag: '🇩🇿',
+        symbol: 'DA',
+      },
+      {
+        name: 'Real',
+        value: 0.060,
+        flag: '🇧🇷',
+        symbol: 'R$',
+      },
+      
+      
+      
 ]
 
  
