@@ -10,7 +10,7 @@ import {
   Pressable,
 } from 'react-native';
 import { currencyByRupee } from './constant';
-import CurrencyButton from './components/currencyButton';
+import CurrencyButton from './components/CurrencyButton';
 import Snackbar from 'react-native-snackbar';
 
 function App(): JSX.Element {
